@@ -1,0 +1,11 @@
+{
+  "name": "brafe-css-puro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/renancorreadev/Brafe_CSS_puro.git",
+  "author": "skyxcripto <producer@skynance.net>",
+  "license": "MIT",
+  "dependencies": {
+    "prettier": "^2.6.2"
+  }
+}
