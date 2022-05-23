@@ -1,0 +1,102 @@
+/* -------------------------------------------------------------------------- */
+/*                                 Breakpoints                                */
+/* -------------------------------------------------------------------------- */
+/*                                    960px                                   */
+/* -------------------------------------------------------------------------- */
+/*                                    740px                                   */
+/* -------------------------------------------------------------------------- */
+@media screen and (max-width: 739px) {
+    .menu {
+        text-align: center;
+    }
+    .menu-nav {
+        float: none;
+        clear: both;
+    }
+
+    a.menu-logo {
+        float: none;
+        margin: 0 auto;
+    }
+
+    .intro {
+        padding: 60px 0;
+    }
+
+    .sobre-container {
+        max-width: 300px;
+    }
+
+    .sobre-item {
+        width: 300px;
+    }
+    .produtos {
+        float: none;
+        margin: 0 auto;
+    }
+    .produtos-container {
+        max-width: 300px;
+    }
+    .produtos-item {
+        margin: 0 auto 20px auto;
+    }
+    .locais {
+        max-width: 720px;
+    }
+    .locais-item > div,
+    .locais-item img {
+        width: 340px; //720px/2-20
+        margin: 0px;
+    }
+    .newsletter-container {
+        max-width: 300px;
+    }
+    .newsletter-info,
+    .newsletter form,
+    .newsletter input {
+        width: 300px;
+        margin: 10 0 0 0px;
+    }
+    .footer-container {
+        max-width: 300px;
+    }
+    .footer img {
+        margin: 10px 0;
+    }
+    .footer p {
+        float: none;
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 740px) and (max-width: 980px) {
+    .sobre-container {
+        max-width: 720px;
+    }
+    .sobre-item {
+        width: 340px;
+        margin: 0 auto;
+    }
+    .produtos-container {
+        max-width: 720px;
+    }
+    .produtos-item {
+        width: 220px;
+        margin: 0 auto;
+    }
+    .locais {
+        max-width: 720px;
+    }
+    .locais-item > div,
+    .locais-item img {
+        width: 340px; //720px/2-20
+    }
+    .newsletter-container {
+        max-width: 720px;
+    }
+    .newsletter-info,
+    .newsletter form,
+    .newsletter input {
+        width: 340px;
+    }
+}
